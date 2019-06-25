@@ -1,5 +1,5 @@
 {% set name = "http3" %}
-{% set version = "0.6.3" %}
+{% set version = "0.6.4" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7bfd27419296e66a5d5eb3d0792973a1fa121abe84b219fb93cb4f05c2847d39
+  sha256: 6d4054ab8490f0d6b2b9db5a2e8d907785247f3d760b514c7fe6e6ab3b25f628
 
 build:
   noarch: python
